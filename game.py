@@ -13,7 +13,7 @@ def game_ends(winner_name):
 while game_running == True:
     counter = 0
     new_round = True
-    # CREATING WITH Dictionary, example varname = {"type": value}
+   
     player = {'name': 'player', 'attack': 14, 'heal': 18, 'health': 100}
     monster = {'name': 'monster', 'attack_min': 10, 'attack_max': 20, 'health': 100}
 
